@@ -2,6 +2,7 @@
 
 This README outlines the details of collaborating on this Ember application.
 A short introduction of this app could easily go here.
+This app was developed through the course ** Build Web Apps Using EmberJS **. This course is available on the Udemy.
 
 ## Prerequisites
 
