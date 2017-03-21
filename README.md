@@ -20,6 +20,8 @@ You will need the following things properly installed on your computer.
 * `cd todolist`
 * `npm install`
 * `bower install`
+* `bower install bootstrap moment showdown`
+
 
 ## Running / Development
 
