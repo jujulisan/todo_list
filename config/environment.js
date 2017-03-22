@@ -4,6 +4,17 @@ module.exports = function(environment) {
   var ENV = {
     modulePrefix: 'todolist',
     environment: environment,
+    contentSecurityPolicy: {
+      'script-src': "'self' 'unsafe-eval' apis.google.com",
+      'frame-src': "'self' https://*.firebaseapp.com",
+      'connect-src': "'self' wss://*.firebaseio.com https://*.googleapis.com"
+    },
+    firebase: {
+      apiKey: 'AIzaSyALx7jy3LsTd3ow-4MQFOjwaRUK5pJBO0E',
+      authDomain: 'todo-list-20d8c.firebaseapp.com',
+      databaseURL: 'https://todo-list-20d8c.firebaseio.com',
+      storageBucket: 'todo-list-20d8c.appspot.com',
+    },
     rootURL: '/',
     locationType: 'auto',
     EmberENV: {
